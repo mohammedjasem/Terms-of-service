@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+    margin: 0px 70px;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+/* Menu styling */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Navbar links */
+.menu ul {
+    font-weight: 500;
+    font-size: 15px;
+    color: #999999;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* Buttons */
+.nav_button {
+    display: flex;
+    gap: 10px;
+}
+
+.nav_button button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 18px;
+}
+
+.login_btn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+}
+
+.login_btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.get_btn {
+    background-color: #7370FF;
+    color: white;
+}
+.tos_container{
+    max-width: 900px;           /* Limits the width */
+    margin: 10px auto;             /* Centers the container */
+    padding: 40px 20px;         /* Adds spacing inside */
+    text-align: left; 
+}
+
+
+
+
+h1{
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+p{
+    color: #D1D5DB;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 2;
+    margin-bottom: 20px;
+    text-align:left;
+    font-family: sans-serif;
+    letter-spacing: 0.1px;
+}
+
+
+.tos{
+    margin-bottom: 50px;
+}
+.dataPri{
+    margin-bottom: 50px;
+}
+.oof{
+     margin-bottom: 50px;
+
+}
+.govLaw{
+    margin-bottom: 50px;
+}
+.term{
+    margin-bottom: 50px;
+}
+.waiver{
+    margin-bottom: 50px;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.footer p ,a {
+    color: #999999;
+
+}
+
+.footer a{
+    margin-bottom: 100px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.left-footer{
+    margin-left: 100px;
+}
+.right-footer{
+    display: flex;
+    margin-right: 100px;
+    gap: 100px;
+
+
+}
+
+.lastnote{
+    margin: 20px 0;
+}
